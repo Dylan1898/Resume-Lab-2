@@ -1,0 +1,205 @@
+/* General */
+
+body{
+    max-width:100%;
+    margin:0 auto;
+    width:1200px;  
+    background-color: #ffe4b2;
+}
+
+.container{
+    max-width: 80%;
+    position:relative;
+    
+     
+}
+.clear{
+    clear:both;
+}
+.center{
+    margin:0 auto;
+}
+.float-left{
+    float: left;
+}
+.primary-color{
+    color:orange;
+}
+.uppercase{
+    text-transform: uppercase ;
+}
+a:link{
+    text-decoration: none;
+}
+.inline{
+    display:inline-block 
+}
+
+/* navigation*/
+
+.navigation p{
+    border: 3px solid black ;
+    padding: 5px;
+    font-size: 1.5em;
+    color:orange;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    float: right;
+    margin-top: 20px;
+    font-size: 1.5em;
+    word-spacing: 20px;
+}
+
+.navigation li {
+    display: inline;
+    border-bottom: thick solid orange;   
+    color:black;  
+}
+
+/*headshot*/
+.headshot{
+   position:relative;
+   margin-bottom: 12em;
+   margin-left: 10em;
+   
+ 
+}
+.profile{
+    height:25em;
+    width:25em;
+    margin-top: 10em;
+    margin-left: -1em;
+
+}
+.headshot ul{
+    list-style-type: none;
+    position: absolute;
+    bottom:-11em;
+    left: 17em;
+}
+.headshot h1{
+    font-size: 4em
+
+}
+.headshot h3{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+/* about*/
+
+.about{
+    background-color:#ffc966;
+    padding:3em;
+    margin:0 auto;
+
+}
+.about ul{
+    display:inline-block;
+    margin-top:1em;
+    margin-right: .75em;
+    list-style-type: none;
+    text-align: right;
+    
+    
+}
+.hello{
+    font-size: 4em;
+}
+
+.about li{
+    color:#996300
+}
+.box{
+    background-color: cornsilk;
+    max-width: 55%;
+    display:inline-block;
+    padding:1em;
+   border:3px solid black;
+   margin-left: 1em;
+}
+
+/*experience*/
+.experience{
+    margin: 0 auto;
+}
+.experience table{ 
+    border-spacing: 2em;
+    margin: 0 auto;
+}
+
+
+/*work*/
+.work{
+    margin-left: 21%;
+}
+.work img{
+    size:30%;
+    text-align: center;
+    
+}
+
+/*contact*/
+.contact{
+    margin:0 auto;
+    
+}
+.contact h2{
+    font-size:500%
+}
+.contact li{
+    font-size: 150%;
+    color:#996300;
+    text-align: right;
+    list-style-type: none;
+    margin-left: 10em;
+
+}
+form{
+    margin-left:14%;
+}
+input[type=Submit] {
+
+    background-color: Orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 35px;
+    width: 100px;
+} 
+input[type=text] {
+    width:80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type=text]:focus{
+    border: 5px solid purple;
+}
+
+input[type=message] {
+    width:80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    font-size: 12px;
+    
+}
+input[type=message]:focus{
+    border: 5px solid purple;
+}
+
+/*outro*/
+.outro{
+   
+    text-align: center;
+    padding-top:1em;
+}
+.media{
+    height:2em;
+    widows: 2em;
+}
+.outro span{
+    text-align: center
+}
